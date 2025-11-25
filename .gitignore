@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Project specific
+uploaded_videos/
+processed_videos/
+output/
+attendance.csv
+
+# Large model files (train locally)
+models/*.yml
+models/*.pickle
+
+# Datasets (train locally)
+dataset/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
